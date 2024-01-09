@@ -1,8 +1,8 @@
 import React from 'react';
 import { View, ImageBackground } from 'react-native';
 import {styles} from './styles';
-import Church from '../../svg/Church';
-import Girl from '../../svg/Girl';
+import Church from '../../assets/svg/Church';
+import Girl from '../../assets/svg/Girl';
 
 const HomeScreen = () => {
     return (
@@ -19,4 +19,4 @@ const HomeScreen = () => {
     )
 }
 
-export default HomeScreen;
+export default React.memo(HomeScreen);
